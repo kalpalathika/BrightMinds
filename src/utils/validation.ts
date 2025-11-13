@@ -1,0 +1,14 @@
+import { z } from 'zod';
+
+export const volunteerSchema = z.object({
+  firstName: z.string().min(2, 'First name must be at least 2 characters'),
+  lastName: z.string().min(2, 'Last name must be at least 2 characters'),
+  email: z.string().email('Please enter a valid email address'),
+  phone: z.string().regex(/^[\d\s\-\+\(\)]+$/, 'Please enter a valid phone number'),
+  skills: z.string().min(10, 'Please provide at least 10 characters describing your skills'),
+  consent: z.boolean().refine((val) => val === true, {
+    message: 'You must agree to volunteer before submitting',
+  }),
+});
+
+export type VolunteerFormData = z.infer<typeof volunteerSchema>;
