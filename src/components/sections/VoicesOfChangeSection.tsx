@@ -1,4 +1,3 @@
-import React from 'react';
 import { TestimonialCard } from '../shared/TestimonialCard';
 import type { Testimonial } from '../../types';
 
@@ -17,7 +16,7 @@ const testimonials: Testimonial[] = [
   },
 ];
 
-export const VoicesOfChangeSection: React.FC = () => {
+export const VoicesOfChangeSection = () => {
   return (
     <section id="voices" className="py-16 md:py-24 bg-gray-50">
       <div className="container-custom">

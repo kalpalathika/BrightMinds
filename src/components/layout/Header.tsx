@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import type { NavLink } from '../../types';
 
@@ -9,7 +9,7 @@ const navLinks: NavLink[] = [
   { label: 'Volunteer with us', href: '#volunteer' },
 ];
 
-export const Header: React.FC = () => {
+export const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const handleNavClick = (href: string) => {

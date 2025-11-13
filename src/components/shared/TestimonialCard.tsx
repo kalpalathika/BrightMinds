@@ -1,7 +1,6 @@
-import React from 'react';
 import type { Testimonial } from '../../types';
 
-export const TestimonialCard: React.FC<Testimonial> = ({ name, quote, illustration }) => {
+export const TestimonialCard = ({ name, quote, illustration }: Testimonial) => {
   return (
     <div className="flex flex-col items-center text-center">
       <div className="mb-6 w-64 h-64 relative">

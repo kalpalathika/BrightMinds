@@ -1,11 +1,10 @@
-import React from 'react';
 import { Card } from '../ui/Card';
 import type { ServiceCard as ServiceCardType } from '../../types';
 
-export const ServiceCard: React.FC<ServiceCardType> = ({ title, description, image }) => {
+export const ServiceCard = ({ title, description, image }: ServiceCardType) => {
   return (
     <Card hover className="h-full">
-      <div className="aspect-[4/3] overflow-hidden">
+      <div className="h-64 overflow-hidden">
         <img
           src={image}
           alt={title}
