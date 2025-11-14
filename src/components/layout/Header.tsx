@@ -59,7 +59,7 @@ export const Header = () => {
               <button
                 key={link.href}
                 onClick={() => handleNavClick(link.href)}
-                className="block w-full text-left px-4 py-3 text-white hover:bg-primary-light rounded transition-colors duration-200"
+                className="block w-full text-left px-4 py-3 text-white hover:bg-primary-light transition-colors duration-200"
               >
                 {link.label}
               </button>
