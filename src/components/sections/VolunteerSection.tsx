@@ -38,7 +38,7 @@ export const VolunteerSection = () => {
         </h2>
 
         {isSubmitted && (
-          <div className="mb-6 p-4 bg-green-100 border border-green-400 text-green-700 rounded-lg">
+          <div className="mb-6 p-4 bg-green-100 border border-green-400 text-green-700">
             Thank you for volunteering! We'll be in touch soon.
           </div>
         )}
