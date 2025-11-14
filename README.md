@@ -1,6 +1,6 @@
 # BrightMinds
 
-A responsive, pixel-perfect educational non-profit website built with React, TypeScript, and Tailwind CSS.
+A responsive educational non-profit website with UI that actually matches the design, built with React, TypeScript, and Tailwind CSS.
 
 🌐 **Live Demo**: [https://kalpalathika.github.io/BrightMinds/](https://kalpalathika.github.io/BrightMinds/)
 
