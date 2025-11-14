@@ -6,25 +6,25 @@ const services: ServiceCardType[] = [
     id: '1',
     title: 'Educational Materials',
     description: 'We provide comprehensive educational materials including books, digital resources, and learning tools to students who lack access to quality education resources.',
-    image: '/images/service-1.jpg',
+    image: `${import.meta.env.BASE_URL}images/service-1.jpg`,
   },
   {
     id: '2',
     title: 'Scholarships and Mentorship',
     description: 'Our scholarship programs and mentorship initiatives help talented students achieve their academic goals and reach their full potential through guidance and financial support.',
-    image: '/images/service-2.jpg',
+    image: `${import.meta.env.BASE_URL}images/service-2.jpg`,
   },
   {
     id: '3',
     title: 'Community Learning Hubs',
     description: 'We establish community learning centers equipped with technology, books, and trained educators to create safe spaces for collaborative learning and growth.',
-    image: '/images/service-3.jpg',
+    image: `${import.meta.env.BASE_URL}images/service-3.jpg`,
   },
   {
     id: '4',
     title: 'Skill Development Workshops',
     description: 'Through hands-on workshops and training programs, we equip students with practical skills and knowledge to prepare them for future careers and opportunities.',
-    image: '/images/service-4.jpg',
+    image: `${import.meta.env.BASE_URL}images/service-4.jpg`,
   },
 ];
 

@@ -6,13 +6,13 @@ const testimonials: Testimonial[] = [
     id: '2',
     name: 'Emma',
     quote: 'It was a life-changer! With their help, I got into a coding bootcamp I had only dreamed of before. The mentorship and scholarship opened so many doors for me. I\'m forever grateful for this opportunity!',
-    illustration: '/images/elian.png',
+    illustration: `${import.meta.env.BASE_URL}images/elian.png`,
   },
   {
     id: '1',
     name: 'Elian',
     quote: 'Thanks to this program, I now have access to books and resources I never thought I could afford. Learning has become so much easier, and I feel more confident about my future!',
-    illustration: '/images/hero-2.jpg',
+    illustration: `${import.meta.env.BASE_URL}images/hero-2.jpg`,
   },
 ];
 

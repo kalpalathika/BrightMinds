@@ -13,7 +13,7 @@ export const HeroSection = () => {
           {/* Image - Shows first on mobile */}
           <div className="rounded-lg overflow-hidden shadow-lg md:order-2">
             <img
-              src="/images/emma.png"
+              src={`${import.meta.env.BASE_URL}images/emma.png`}
               alt="Student learning"
               className="w-full h-auto object-cover"
             />
