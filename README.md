@@ -2,7 +2,7 @@
 
 A responsive, pixel-perfect educational non-profit website built with React, TypeScript, and Tailwind CSS.
 
-🌐 **Live Demo**: [bright-minds-lxjoe1kar-kalpalathikas-projects.vercel.app](https://bright-minds-lxjoe1kar-kalpalathikas-projects.vercel.app/)
+🌐 **Live Demo**: [https://kalpalathika.github.io/BrightMinds/](https://kalpalathika.github.io/BrightMinds/)
 
 ## Setup
 
